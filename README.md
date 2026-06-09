@@ -144,3 +144,9 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+## Project Implementation Summary
+
+This application implements core OOP data structures under the `lib/` directory:
+
+- **`book.py`**: Contains a `Book` class modeling tracking attributes. Employs property setters to validate that page values are strictly configured as integers.
+- **`coffee.py`**: Features a `Coffee` class enforcing string constraints on cup sizes (*Small*, *Medium*, *Large*) while managing behavioral tracking updates like tipping.
